@@ -1,0 +1,46 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: whitesmoke;
+}
+button {
+    display: block;
+    margin: 0 auto;
+    background-color: rgb(124, 194, 124);
+    border-style: solid;
+    border-color: greenyellow;
+    border-radius: 10px;
+    padding: 20px;
+    color: white;
+}
+button:hover {
+    background-color: rgb(70, 202, 70);
+    border-style: dashed;
+}
+button:active {
+    background-color: rgb(50, 190, 50);
+    border-color: green;
+    border-style: solid;
+}
+div {
+    margin-bottom: 20px;
+    font-size: 50px;
+    text-align: center;
+    width: 80vw;
+    overflow: auto;
+}
+#charlim {
+    color: green;
+}
+input {
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 20px;
+    border-style: dashed;
+}
+#secret {
+    font-size: 10px;
+    color: lightgray;
+}
