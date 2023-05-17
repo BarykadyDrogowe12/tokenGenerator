@@ -26,7 +26,7 @@ const css = document.querySelector('#css');
 button.addEventListener('click', () => {
     if(input.value <= 512 && input.value > 0) {
         document.querySelector('div').innerText = generateToken(input.value); //will generate token with 20 characters, if we don't type any custom lenght it will default to the 8 lenght we declared earlier
-    } else if(input.value = 12321) {
+    } else if(input.value == 12321) {
         css.href = './css/darkstyle.css';
         document.querySelector('div').innerText = 'Enabled Dark Mode';
     } else {
