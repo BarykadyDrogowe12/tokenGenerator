@@ -5,9 +5,16 @@
 // console.log(text.length); //.length converts the string into a table only for the console log for it to work, each character for one index
 // console.log(text[2]); //javascript can convert strings into tables if you use it
 // console.log(text.indexOf('f')); //you can also search by indexes
+const check = document.querySelector('#special');
 
 const generateToken = (length = 8) => {
-    const string = 'qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM1234567890!@#$%^&*()';
+    let string = '';
+    if (check.checked) {
+        string = 'qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM1234567890!@#$%^&*()';
+    } else {
+        string = 'qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM1234567890';
+    }
+    
     const tabRandom = [];
 
     for (let i = 0; i < length; i++) {
