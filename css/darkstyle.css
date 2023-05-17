@@ -9,9 +9,9 @@ body {
 button {
     display: block;
     margin: 0 auto;
-    background-color: rgb(124, 194, 124);
+    background-color: rgb(50, 190, 50);
+    border-color: green;
     border-style: solid;
-    border-color: greenyellow;
     border-radius: 10px;
     padding: 20px;
     color: white;
@@ -21,9 +21,9 @@ button:hover {
     border-style: dashed;
 }
 button:active {
-    background-color: rgb(50, 190, 50);
-    border-color: green;
+    background-color: rgb(124, 194, 124);
     border-style: solid;
+    border-color: greenyellow;
 }
 div {
     margin-bottom: 20px;
